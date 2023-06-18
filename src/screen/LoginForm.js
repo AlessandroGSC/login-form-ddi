@@ -28,8 +28,8 @@ export default function LoginForm(props) {
                 />
             </View>
             <View style={styles.containerForm}>
-                <Text style={styles.titulo} >Hola</Text>
-                <Text style={styles.subtitulo} >Hola</Text>
+                <Text style={styles.titulo} >Hola de nuevo</Text>
+                <Text style={styles.subtitulo} >Inicio de sesión</Text>
                 <TextInput placeholder='aless@gmail.com' style={styles.inputText} />
                 <TextInput placeholder='*********' style={styles.inputText} />
                 <Text style={styles.textOC} >Olvidaste tu contraseña</Text>
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
         flex: 0.7
     },
     titulo: {
-        fontSize: 60,
+        fontSize: 48,
         fontWeight: 'bold',
         color: '#c9c9c9',
     },
